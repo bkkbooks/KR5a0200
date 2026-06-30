@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0200/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0200/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 南斗延壽燈儀
+  date: '2015-08-28 23:40:51.192232'
+  source:
+    repository: kanripo
+    path: KR5a0200
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0200_000-ZTDZ.yaml, hash: 'sha256:54deaf7e2105773dead00fee7a3d9ee54e886012eb6c3ae26e4ce073a9196585'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0200_000-ZTDZ.markers.yaml, hash: 'sha256:d244b1eed4b21b3ce1b1252aced8bfbe97080b198813a4e99bc7adddef1113dc'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0200_SJB_000-030565a
+    span:
+    - body
+    - 0
+    - 1646
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:653441d6aa11ca2be72a8cf4fb20e52799ff33db9a4b15300bd5c0f7146b9e6a
